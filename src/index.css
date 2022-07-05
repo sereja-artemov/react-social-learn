@@ -23,7 +23,13 @@
 @import url(./blocks/user/__avatar-img/user__avatar-img.css);
 @import url(./blocks/user/__name/user__name.css);
 @import url(./blocks/user/__info-list/user__info-list.css);
-@import url(./blocks/user/__born/user__born.css);
-@import url(./blocks/user/__city/user__city.css);
-@import url(./blocks/user/__education/user__education.css);
-@import url(./blocks/user/__website/user__website.css);
+@import url(./blocks/user/__info-list-item/user__info-list-item.css);
+@import url(./blocks/user/__info-item-title/user__info-item-title.css);
+@import url(./blocks/posts/posts.css);
+@import url(./blocks/post-form/post-form.css);
+@import url(./blocks/post-form/__textarea/post-form__textarea.css);
+@import url(./blocks/post-form/__btn/post-form__btn.css);
+@import url(./blocks/post/post.css);
+@import url(./blocks/post/__avatar/post__avatar.css);
+@import url(./blocks/post/__image/post__image.css);
+@import url(./blocks/post/__text/post__text.css);

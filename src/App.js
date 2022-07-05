@@ -64,25 +64,24 @@ function App() {
             <div className="user__info">
               <p className="user__name">Иван Петров</p>
               <ul className="user__info-list">
-                <p className="user__born">Дата рождения: 12 октября</p>
-                <p className="user__city">Город: Курск</p>
-                <p className="user__education">Образование: шарага</p>
-                <p className="user__website">Сайт: нету его</p>
+                <li className="user__info-list-item"><span className='user__info-item-title'>Дата рождения:</span> 12 октября</li>
+                <li className="user__info-list-item"><span className='user__info-item-title'>Город:</span> Курск</li>
+                <li className="user__info-list-item"><span className='user__info-item-title'>Образование:</span> шарага</li>
+                <li className="user__info-list-item"><span className='user__info-item-title'>Сайт:</span> нету его</li>
               </ul>
             </div>
           </div>
         </section>
         <section className="posts">
           <form action="" className="post-form">
-            <textarea name="news" id="" cols="30" rows="10">Ваши новости...</textarea>
-            <button className='post-form__btn'>Отправить</button>
+            <textarea className='post-form__textarea' name="news" id="" cols="30" rows="10">Ваши новости...</textarea>
+            <button type='submit' className='post-form__btn'>Отправить</button>
           </form>
           <article className="post">
             <a href="/" className="post__avatar">
               <img src="" alt="" className="post__img" />
             </a>
             <p className="post__text">Тестовое сообщение</p>
-            <p className="post__text">Hello world!</p>
           </article>
         </section>
       </main>
