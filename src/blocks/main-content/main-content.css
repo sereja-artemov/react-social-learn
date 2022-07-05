@@ -1,0 +1,7 @@
+.main-content {
+  box-sizing: border-box;
+  grid-area: main;
+  background-color: var(--block-bg-color);
+  border-radius: 5px;
+  padding: 20px 40px;
+}

@@ -1,0 +1,9 @@
+.header {
+  box-sizing: border-box;
+  grid-area: header;
+  background-color: var(--block-bg-color);
+  margin-top: 10px;
+  border-radius: 5px;
+  min-height: 40px;
+  padding: 10px 20px;
+}

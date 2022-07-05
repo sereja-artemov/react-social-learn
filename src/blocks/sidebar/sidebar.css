@@ -1,0 +1,8 @@
+.sidebar {
+  color: #d3d3d3;
+  box-sizing: border-box;
+  grid-area: sidebar;
+  background-color: var(--block-bg-color);
+  border-radius: 5px;
+  padding: 20px 25px;
+}
