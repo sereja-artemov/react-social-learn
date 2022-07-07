@@ -3,7 +3,7 @@ import './App.css';
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Profile from "./components/Profile";
-import Post from "./components/Post";
+import Posts from "./components/Posts";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Sidebar />
       <main className="main-content">
         <Profile />
-        <Post />
+        <Posts />
       </main>
     </div>
   );
