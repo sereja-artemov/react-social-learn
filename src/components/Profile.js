@@ -1,7 +1,11 @@
 import React from "react";
 import userAvatarImg from "../img/user-face.jpg";
 
+<<<<<<< HEAD
 const Profile = () => {
+=======
+function Profile() {
+>>>>>>> 137a7c777bbeeea48c808f967a4074d68dce769e
     return (
         <section className="profile">
             <div className="profile__top-banner" />
